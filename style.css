@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: #FFE6E6;
+}
+
+/* header style */
+.header-container {
+    background-color: #7469B6;
+    padding: 30px;
+}
+
+.title {
+    font-family: "Lilita One", sans-serif;
+    font-size: 5rem;
+    color: #FFE6E6;
+    margin: 0;
+    text-align: center;
+}
+
+/* main content style */
+.player{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* player div style */
+.player-container{
+    border:4px solid #AD88C6;
+    border-radius: 10px;
+    height: 500px;
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+    max-width: 500px;
+}
+
+.player-name {
+    font-family: "Lilita One", sans-serif;
+    color: #7469B6;
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* button styles */
+.btn {
+    border:4px solid #7469B6;
+    border-radius: 50px;
+    margin: 10px 50px;
+}
+
+.btn-img {
+    width: 100px;
+}
+
+.button-container {
+    margin: 50px;
+}
+
+.btn:hover {
+    background-color: #7469B6;
+    cursor: pointer;
+}
+
+/* picked style */
+.picked {
+    margin: 60px 70px;
+    background-color: #7469B6;
+    border-radius: 25px;
+}
+
+.picked-img {
+    height: 300px;
+}
+
+/* won style */
+.won {
+    background-color: #7469B6;
+}
+
+.won-text {
+    color: #FFE6E6;
+}
+
+/* try again button */
+.again-button {
+    text-align: center;
+}
+
+.again-button button {
+    background-color: #7469B6;
+    border: 0;
+    border-radius: 10px;
+    color: #FFE6E6;
+    font-family: "Lilita One", sans-serif;
+    font-size: 2rem;
+    padding: 10px 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <header class="header-container">
+        <h1 class="title">Janken</h1>
+    </header>
+    <main class="main-container">
+        <div class="player">
+            <div id="player1" class="player-container">
+                <h2 class="player-name">Player 1</h2>
+                <div class="button-container">
+                    <div type="button" id="rock" class="btn">
+                        <img src="./images/p1-rock.png" alt="rock" class="btn-img">
+                    </div>
+                    <div type="button" id="paper" class="btn">
+                        <img src="./images/p1-paper.png" alt="paper" class="btn-img">
+                    </div>
+                    <div type="button" id="scissors" class="btn">
+                        <img src="./images/p1-scissors.png" alt="scissors" class="btn-img">
+                    </div>
+                </div>
+            </div>
+            <div id="player2" class="player-container">
+                <h2 class="player-name">Player 2</h2>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
